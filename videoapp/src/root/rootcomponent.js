@@ -5,7 +5,11 @@ import VideoContainer from '../app/videocontainer';
 function MyRootComponent() {
     return (
         <div>
-          <div style={{color:"red"}}>
+          <div style={{
+            color:"red",
+            textAlign:"center",
+            fontFamily:"san-serif"
+            }}>
           <Logo></Logo> 
           </div>
         
