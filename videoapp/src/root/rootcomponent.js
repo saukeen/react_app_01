@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../app/logo';
 import VideoContainer from '../app/videocontainer';
+import AddVideo from '../app/addvideo';
 
 function MyRootComponent() {
     return (
@@ -14,6 +15,9 @@ function MyRootComponent() {
           </div>
         
         <VideoContainer></VideoContainer>
+        <AddVideo></AddVideo>
+        <br />
+        
         </div>
       );
 }
