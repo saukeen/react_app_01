@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../app/logo';
 import VideoContainer from '../app/videocontainer';
 import AddVideo from '../app/addvideo';
+import APIComponent from '../app/remoteapi';
 
 function MyRootComponent() {
     return (
@@ -16,6 +17,8 @@ function MyRootComponent() {
         
         <VideoContainer></VideoContainer>
         <AddVideo></AddVideo>
+        <APIComponent>/</APIComponent>
+
         <br />
         
         </div>

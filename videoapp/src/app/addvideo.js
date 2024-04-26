@@ -13,6 +13,9 @@ function AddVideo() {
         updateId(event.target.value)
     }
 
+
+
+    
     return (
         <div>
             <h2>Add new video: {id}</h2>
